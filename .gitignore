@@ -1,0 +1,20 @@
+# Bỏ qua thư mục môi trường ảo
+venv/
+
+# Bỏ qua file cấu hình môi trường
+.env
+.env.*
+
+# Bỏ qua file log
+logs/
+*.log
+
+# Bỏ qua file dữ liệu tạm
+*.pyc
+__pycache__/
+
+
+
+# Bỏ qua các file hệ thống
+.DS_Store
+Thumbs.db 

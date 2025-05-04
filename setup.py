@@ -1,0 +1,35 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="crypto-analysis",
+    version="0.1.0",
+    packages=find_packages(),
+    install_requires=[
+        "requests==2.31.0",
+        "beautifulsoup4==4.12.3",
+        "selenium==4.18.1",
+        "python-binance==1.0.19",
+        "pycoingecko==3.1.0",
+        "tweepy==4.14.0",
+        "praw==7.7.1",
+        "kafka-python==2.0.2",
+        "pymongo==4.6.2",
+        "elasticsearch==8.12.1",
+        "pyspark==3.5.1",
+        "numpy==1.26.4",
+        "pandas==2.2.1",
+        "scikit-learn==1.4.2",
+        "tensorflow==2.15.0",
+        "prophet==1.0.1",
+        "statsmodels==0.14.1",
+        "matplotlib==3.8.3",
+        "seaborn==0.13.2",
+        "streamlit==1.32.2",
+        "dash==2.16.1",
+        "plotly==5.19.0",
+        "python-dotenv==1.0.1",
+        "schedule==1.2.1",
+        "joblib==1.3.2"
+    ],
+    python_requires=">=3.8",
+) 
